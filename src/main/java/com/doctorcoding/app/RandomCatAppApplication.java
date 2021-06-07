@@ -19,7 +19,7 @@ public class RandomCatAppApplication {
 
 			CatService catService = applicationContext.getBean(CatService.class);
 
-			LOGGER.info("CatService -> {}", catService);
+			LOGGER.info("catService -> {}", catService);
 		}
 	}
 }
